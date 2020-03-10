@@ -1,4 +1,5 @@
-defvcall(Map stageParams) {
+#!groovy
+def call(Map stageParams) {
 
 	checkout([
 		$class: 'GitSCM',
